@@ -5,7 +5,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 15593,
+      "htmlSize": 33605,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -62,7 +62,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 9389,
+      "htmlSize": 11871,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -90,7 +90,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 9970,
+      "htmlSize": 38852,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -118,7 +118,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 9159,
+      "htmlSize": 12429,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -146,7 +146,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 12688,
+      "htmlSize": 28107,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -174,7 +174,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 10914,
+      "htmlSize": 15949,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -202,7 +202,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 10755,
+      "htmlSize": 15580,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -226,11 +226,67 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/projects/fraud-detection-random-forest": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 15788,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects/[slug]",
+      "dataRoute": "/projects/fraud-detection-random-forest.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/projects/nigerian-language-identification": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 16676,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects/[slug]",
+      "dataRoute": "/projects/nigerian-language-identification.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/projects/nimde-research-assistant": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 11563,
+      "htmlSize": 16283,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -245,6 +301,62 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/projects/[slug]",
       "dataRoute": "/projects/nimde-research-assistant.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/projects/resolve": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 17805,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects/[slug]",
+      "dataRoute": "/projects/resolve.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/projects/unfpa-field-population-analysis": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 15373,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects/[slug]",
+      "dataRoute": "/projects/unfpa-field-population-analysis.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -290,8 +402,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "4a5640a07d439c3dd24319c60bb275b4",
-    "previewModeSigningKey": "9554bbb7c750185a8738f5b22325e96c38c70f73f277c335616ac311711a261e",
-    "previewModeEncryptionKey": "d5adda813ba7e2b8280d4f0f81506744a4fc0f8f3ce8e8a277b3e3cdf1461bf6"
+    "previewModeId": "7a93c3d070dcfcebde4ec60f57ca6d82",
+    "previewModeSigningKey": "300adfce078a8b83f9c1b10dd398fb7a83d854266e279d51a1de2dc9c50f7016",
+    "previewModeEncryptionKey": "49cbe133990fc70b4c87368b456806464a1b99f525e54741f4514874574bcff0"
   }
 }

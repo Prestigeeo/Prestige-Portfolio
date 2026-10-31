@@ -2349,7 +2349,7 @@ const links = [
     },
     {
         href: "/about",
-        label: "About"
+        label: "About & Credentials"
     },
     {
         href: "/contact",
@@ -2373,8 +2373,8 @@ function Header() {
                         children: "."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 20,
-                        columnNumber: 79
+                        lineNumber: 21,
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
@@ -2386,28 +2386,43 @@ function Header() {
                 className: "menu-button",
                 onClick: ()=>setOpen(!open),
                 "aria-expanded": open,
+                "aria-label": "Toggle navigation menu",
                 children: open ? "Close" : "Menu"
             }, void 0, false, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 21,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                 className: open ? "site-nav open" : "site-nav",
                 "aria-label": "Main navigation",
-                children: links.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        href: link.href,
-                        className: pathname === link.href ? "active" : "",
+                children: [
+                    links.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: link.href,
+                            className: pathname === link.href ? "active" : "",
+                            onClick: ()=>setOpen(false),
+                            children: link.label
+                        }, link.href, false, {
+                            fileName: "[project]/src/components/Header.tsx",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, this)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "/assets/Owoeye%20Olajumoke%E2%80%99s%20CV.docx",
+                        target: "_blank",
+                        rel: "noreferrer",
+                        className: "nav-cta",
                         onClick: ()=>setOpen(false),
-                        children: link.label
-                    }, link.href, false, {
+                        children: "Resume ↗"
+                    }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 26,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 24,
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]

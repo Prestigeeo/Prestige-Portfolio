@@ -10,8 +10,26 @@ export function ProjectCard({ project, index }: { project: Project; index?: numb
       </div>
       <h3>{project.title}</h3>
       <p>{project.shortDescription}</p>
-      <div className="tag-list">{project.tools.slice(0, 3).map((tool) => <span key={tool}>{tool}</span>)}</div>
-      <Link href={`/projects/${project.slug}`} className="project-link">Explore the project <span>↗</span></Link>
+
+      {project.metrics && project.metrics.length > 0 && (
+        <div className="project-card-metrics">
+          {project.metrics.slice(0, 2).map((m) => (
+            <span key={m.label} className="metric-chip">
+              {m.label}: <strong>{m.value}</strong>
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div className="tag-list">
+        {project.tools.slice(0, 4).map((tool) => (
+          <span key={tool}>{tool}</span>
+        ))}
+      </div>
+
+      <Link href={`/projects/${project.slug}`} className="project-link">
+        Explore case study <span>↗</span>
+      </Link>
     </article>
   );
 }

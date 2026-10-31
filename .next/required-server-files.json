@@ -105,7 +105,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/prestige/Documents/Codex/2026-10-15/referenced-chatgpt-conversation-this-is-an/ai-portfolio",
+    "outputFileTracingRoot": "/Users/prestige/Workspace/Prestige's Portfolio",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -334,13 +334,13 @@
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
-    "repoRoot": "/Users/prestige/Documents/Codex/2026-10-15/referenced-chatgpt-conversation-this-is-an/ai-portfolio",
+    "repoRoot": "/Users/prestige/Workspace/Prestige's Portfolio",
     "turbopack": {
-      "root": "/Users/prestige/Documents/Codex/2026-10-15/referenced-chatgpt-conversation-this-is-an/ai-portfolio"
+      "root": "/Users/prestige/Workspace/Prestige's Portfolio"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/prestige/Documents/Codex/2026-10-15/referenced-chatgpt-conversation-this-is-an/ai-portfolio",
+  "appDir": "/Users/prestige/Workspace/Prestige's Portfolio",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",
